@@ -1,9 +1,8 @@
 {
-  "name": "cli-interface",
+  "name": "cli-user",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "preferGlobal": true,
   "bin": "./commands.js",
   "scripts": {
     "dev": "nodemon .",
@@ -11,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bmuday/_cli-interface.git"
+    "url": "git+https://github.com/bmuday/cli-user.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bmuday/_cli-interface/issues"
+    "url": "https://github.com/bmuday/cli-user/issues"
   },
-  "homepage": "https://github.com/bmuday/_cli-interface#readme",
+  "homepage": "https://github.com/bmuday/cli-user#readme",
   "dependencies": {
     "commander": "^7.2.0",
     "dotenv": "^9.0.0",

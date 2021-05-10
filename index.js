@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 //Connect to DB
-const mongo_db = require("./db");
+const db = require("./db");
 const mongoose = require("mongoose");
 
 // Import model
